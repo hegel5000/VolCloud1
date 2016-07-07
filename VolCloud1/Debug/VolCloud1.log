@@ -1,0 +1,4 @@
+﻿  Cloud.cpp
+c:\users\ian longshore\documents\visual studio 2012\projects\volcloud1\volcloud1\cloud.cpp(180): warning C4244: 'initializing' : conversion from 'float' to 'const int', possible loss of data
+c:\users\ian longshore\documents\visual studio 2012\projects\volcloud1\volcloud1\cloud.cpp(249): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+  VolCloud1.vcxproj -> C:\Users\Ian Longshore\Documents\Visual Studio 2012\Projects\VolCloud1\Debug\VolCloud1.exe

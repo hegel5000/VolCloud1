@@ -1,0 +1,39 @@
+DELT 1
+STEP 0.5
+XYZC 100 100 100
+BRGB 0.0 0.0 0.80
+MRGB 1 1 1
+FILE rusty_cube.bmp
+RESO 1920 1080
+EYEP 40 50 20
+VDIR -0.7 0 -1
+UVEC 0 1 0
+FOVY 35
+LPOS 200 0 100
+LCOL 0.3 0.5 0.2
+
+5
+
+light
+10 15 49
+1.0 0.7 0.1
+
+sphereGeneral
+70 70 30
+40 1 1
+
+cubeGeneral
+30 30 30
+70 70 70
+1.0 0
+
+cubeGeneral
+31 31 31
+69 69 69
+-1.0 -1.0
+
+cubeFuzzy
+30 30 30
+70 70 70
+1.0 -1.0
+

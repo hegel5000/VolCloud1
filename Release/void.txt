@@ -1,0 +1,45 @@
+DELT 1
+STEP 0.5
+XYZC 100 100 100
+BRGB 0 0 0
+MRGB 1 1 1
+FILE void.bmp
+RESO 1920 1080
+EYEP 50 50 50
+VDIR -1 0 0
+UVEC 0 1 0
+FOVY 35
+LPOS 200 80 100
+LCOL 0.1 0.1 0.1
+
+7
+
+cloud
+42 99 50
+50
+
+light
+50 43 50
+0.3 0.1 1.0
+
+light
+50 53 50
+1.0 0.5 0.2
+
+cubeGeneral
+48 0 48
+52 42 52
+1 0.9
+
+sphere
+50 44 50
+7 0 0.1
+
+cloudGeneral
+50 46 50
+12 0.5 0.5
+
+cubeFuzzy
+49 45 49
+51 58 51
+0.3 0.9
