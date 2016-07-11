@@ -34,7 +34,7 @@ than an infinite number of points, there are a small finite number of sample
 points at fixed intervals.
 
 Since this is a voxel renderer, for canvas side lengths x, y, and z, and step 
-distance s, the ray simulation time (let's call it R) is O(max(x, y, z)/s).
+distance s, the ray simulation time (let's call it R) is `O(max(x, y, z)/s)`.
 (For a proper path tracer, it's instead about the number of collidable 
 primitives in the scene and the max ray recursion depth).
 
@@ -47,7 +47,7 @@ canvas, a ray is cast from that light to that voxel.  Light is absorbed from
 the ray along the way and whatever is left is added to the total illumination
 of the voxel at the end.
 
-That is to say, illumination runs in O(x*y*z*l*R), where x, y, and z are the
+That is to say, illumination runs in `O(x*y*z*l*R)`, where x, y, and z are the
 canvas dimensions and l is the number of lights in the scene.
 
 Lights which are close to dense shapes or the edge of the canvas will take less
@@ -60,7 +60,7 @@ Cloud::pixelVector.  You can think of it as there being a pinprick lense with
 the monitor on the other side, and your rays get from the screen and through
 the lense.
 
-In any case, rendering runs in O(x*y*R), where x and y are the dimensions of
+In any case, rendering runs in `O(x*y*R)`, where x and y are the dimensions of
 your output image.
 
 Scenes will take less time to render if the camera is placed close to dense
