@@ -433,6 +433,11 @@ void Cloud::sphere(vec3 center, float r, float densInner, float densOuter) {
   } //for i
 }
 
+/* This corresponds to "cloudGeneral" in config files.  "cloud" is this but
+ * with densInner and densOuter each set to 1.
+ *
+ * 
+ */
 void Cloud::noisySphere(
 	  vec3 center, float r, float densInner, float densOuter) { 
   for (int i = 0; i < cloudMaxX; i++) {
