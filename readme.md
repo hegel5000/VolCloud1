@@ -4,10 +4,16 @@ VolCloud
 About This Repo
 ---------------
 In a computer graphics class I took in 2013, I was assigned to write a ray
-tracer for scenes of voxels.  All of my original code is in 
-`./VolCloud1/Cloud.cpp`, so check that out.
+tracer for scenes of voxels.  I extended it at little.  All of my original 
+(and as of yet undocumented, sry) code is in `./VolCloud1/Cloud.cpp`, so check 
+that out.
 
-Check out ./Release for some example renderings and config files.
+**Check out `./Release` for some example renderings and config files.**
+
+This was made in Visual Studio 2012.  Rather than figuring out how to actually
+compile VolCloud, you might want to try the pre-compiled Windows executable
+also found in `./Release`.  Or not, because you shouldn't trust strangers with
+executables from the internet.
 
 Usage
 -----
